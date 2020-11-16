@@ -15,7 +15,7 @@ public class User {
     private String phone;
 
     /** User Constructor
-     * @param nameIn
+     * @param nameIn - this is the persons name
      * @param streetAddressIn
      * @param zipcodeIn
      * @param countryIn
