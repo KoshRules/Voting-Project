@@ -14,7 +14,7 @@ public class User {
     private String mail;
     private String phone;
 
-    /**
+    /** User Constructor
      * @param nameIn
      * @param streetAddressIn
      * @param zipcodeIn
