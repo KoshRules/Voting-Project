@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cb4b7b48-089e-4849-bd34-91333da7c865" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="cb4b7b48-089e-4849-bd34-91333da7c865" name="Default Changelist" comment="updateing to github">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/User.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,7 +80,14 @@
       <option name="project" value="LOCAL" />
       <updated>1605555572573</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updateing to github">
+      <created>1605555999391</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605555999391</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -91,10 +99,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="347" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1080@0.0.1920.1080" timestamp="1605532180294" />
-    <state x="391" y="129" key="CommitChangelistDialog2" timestamp="1605555571831">
+    <state x="391" y="129" key="CommitChangelistDialog2" timestamp="1605556237809">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="391" y="129" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605555571831" />
+    <state x="391" y="129" key="CommitChangelistDialog2/0.0.1920.1080@0.0.1920.1080" timestamp="1605556237809" />
     <state x="1149" y="298" key="FileChooserDialogImpl" timestamp="1605555129824">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
@@ -115,10 +123,10 @@
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
     <state x="461" y="182" key="SettingsEditor/0.0.1920.1080@0.0.1920.1080" timestamp="1605555136123" />
-    <state x="435" y="268" key="Vcs.Push.Dialog.v2" timestamp="1605555693783">
+    <state x="435" y="268" key="Vcs.Push.Dialog.v2" timestamp="1605556248703">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="435" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605555693783" />
+    <state x="435" y="268" key="Vcs.Push.Dialog.v2/0.0.1920.1080@0.0.1920.1080" timestamp="1605556248703" />
     <state x="313" y="245" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1605533774743">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>

@@ -14,6 +14,15 @@ public class User {
     private String mail;
     private String phone;
 
+    /**
+     * @param nameIn
+     * @param streetAddressIn
+     * @param zipcodeIn
+     * @param countryIn
+     * @param stateIn
+     * @param mailIn
+     * @param phoneIn
+     */
     public User(String nameIn, String streetAddressIn, String zipcodeIn, String countryIn, String stateIn, String mailIn, String phoneIn)
     {
         if (Utilities.max30Chars(nameIn)) this.name = nameIn;
@@ -110,4 +119,5 @@ public class User {
                 ", phone='" + phone + '\'' +
                 '}';
     }
+
 }
