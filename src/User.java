@@ -25,8 +25,7 @@ public class User {
      */
     public User(String nameIn, String streetAddressIn, String zipcodeIn, String countryIn, String stateIn, String mailIn, String phoneIn)
     {
-        if (Utilities.max30Chars(nameIn)) this.name = nameIn;
-        else this.name = nameIn.substring(0, 30);
+        this.name = nameIn;
 
         this.streetAddress = streetAddressIn;
         //else this.streetAddress = streetAddressIn;
