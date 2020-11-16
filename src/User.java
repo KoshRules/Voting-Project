@@ -16,9 +16,9 @@ public class User {
 
     /** User Constructor
      * @param nameIn - this is the persons name
-     * @param streetAddressIn
-     * @param zipcodeIn
-     * @param countryIn
+     * @param streetAddressIn- street name
+     * @param zipcodeIn - 5 digit zip
+     * @param countryIn - country of residence
      * @param stateIn
      * @param mailIn
      * @param phoneIn
