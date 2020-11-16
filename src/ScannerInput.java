@@ -1,5 +1,8 @@
 import java.util.Scanner;
 
+/**
+ *
+ */
 public class ScannerInput {
 
     public static int readNextInt(String prompt) {
