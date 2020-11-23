@@ -1,6 +1,8 @@
 public class UserInfo {
 
 
+
+
     /**
      * User Class
      *
@@ -16,7 +18,8 @@ public class UserInfo {
     private String phone;
 
     /** User Constructor
-     * @param username - social security number
+     * @param username - social security number; this will take in the ssn that is provided by the user
+     *                 to be permanently assigned as the username for access by the user
      * @param nameIn - this is the persons name
      * @param streetAddressIn- street name
      * @param zipcodeIn - 5 digit zip
@@ -56,6 +59,14 @@ public class UserInfo {
      * Getters & Setters
      * @return
      */
+    public String getSsn() {
+        return ssn;
+    }
+
+    public void setSsn(String username) {
+        this.ssn = username;
+    }
+
     public String getName() {
         return name;
     }
