@@ -1,4 +1,4 @@
-public class User {
+public class UserInfo {
 
 
     /**
@@ -6,6 +6,7 @@ public class User {
      *
      */
 
+    private String ssn;
     private String name;
     private String streetAddress;
     private String zipcode;
@@ -15,6 +16,7 @@ public class User {
     private String phone;
 
     /** User Constructor
+     * @param username - social security number
      * @param nameIn - this is the persons name
      * @param streetAddressIn- street name
      * @param zipcodeIn - 5 digit zip
@@ -23,8 +25,11 @@ public class User {
      * @param mailIn
      * @param phoneIn
      */
-    public User(String nameIn, String streetAddressIn, String zipcodeIn, String countryIn, String stateIn, String mailIn, String phoneIn)
+    public UserInfo(String username, String nameIn, String streetAddressIn, String zipcodeIn, String countryIn, String stateIn, String mailIn, String phoneIn)
     {
+        if (Utilities.onlyContainsNumbers(username)) this.ssn = username;
+        else this.ssn = "invalid entry";
+
         this.name = nameIn;
 
         this.streetAddress = streetAddressIn;
@@ -45,6 +50,7 @@ public class User {
         if (Utilities.onlyContainsNumbers(phoneIn)) this.phone = phoneIn;
         else this.phone = "unknown";
     }
+
 
     /**
      * Getters & Setters
